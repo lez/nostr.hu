@@ -10,11 +10,11 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Kezdőlap
+  home: Főoldal
   categories: Kategóriák
   tags: Címkék
   archives: Archívum
-  about: Bemutatkozás
+  about: Rólunk
 
 # the text displayed in the search bar & search results
 search:

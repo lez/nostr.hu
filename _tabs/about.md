@@ -4,5 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## A küldetés                                                                                                                                                                                        
+
+A nostr.hu küldetése, hogy segítse a magyarokat eligazodni a Nostr világában és népszerűsítse a használatát a következőkkel:
+
+ * magyar nyelvű, közérthető anyagok készítése és összegyűjtése
+ * online közösségépítés magyar felhasználóknak és fejlesztőknek
+ * élő események, találkozók szervezése
+
+Hisszük, hogy a nemzetnek, amelyik aktívan foglakozik a **rabok legyünk vagy szabadok** kérdéskörrel, a Nostr-en a helye.
+
