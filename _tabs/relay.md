@@ -16,11 +16,11 @@ Minden felhasználó saját maga dönti el, hogy mely csomópontokra tölti fel 
 
 ## A csomópont az innováció
 
-1. A csomópont működése egyszerű, néhány oldalon elfér a [leírás](https://nips.nostr.com/1), hogy mit kell egy csomópontnak tudnia. Fogadnia kell a posztokat (és egyéb eseményeket), és az olvasónak vissza kell adni azokat úgy, ahogy ő épp kíváncsi rájuk.
+1. A csomópont működése egyszerű, néhány oldalon elfér a [leírás](https://nips.nostr.com/1), hogy mit kell tudnia. Fogadnia kell a posztokat (és egyéb eseményeket), az olvasónak pedig vissza kell adni azokat úgy, ahogy ő épp kíváncsi rájuk.
 
-2. A csomópont nem tudja egymagában megakadályozni, hogy egy szerző írásai eljussanak a követőihez. Ha a szerző 5 csomópontot adott meg, ahova ő posztol, akkor az 5-ből 4-et akár le is lőhetnek, az 5. csomóponton keresztül a követők továbbra is olvashatják amire kíváncsiak. **Ez biztosítja a szólásszabadságot a Nostr-en**.
+2. Egy csomópont nem képes önmagában megakadályozni, hogy egy szerző gondolatai eljussanak a követőihez. Ha a szerző megad 5 írt csomópontot, ahova ő posztol, akkor az 5-ből akár le is lőhetnek 4-et. Ha a csomópontok közül akár csak egy is elérhető és becsületes, akkor a követők továbbra is táplálkozhatnak a szerző gondolataival. **Ez a felépítés biztosítja a szólásszabadságot a Nostr világában**.
 
-3. A csomópontnál nincs meg a felhasználók titkos kulcsa, így nem tudja meghamisítani a posztokat. A poszt hitelességét mindig az olvasó által használt kliensprogram ellenőrzi automatikusan.
+3. A csomópontnál nincs meg a felhasználók titkos kulcsa, így nem tudja meghamisítani a posztokat. A poszt hitelességét mindig az olvasó által használt kliensprogram ellenőrzi automatikusan, hogy azt valóban az az ember írta, akit követ.
 
 ## Milyen csomópontok vannak?
 
