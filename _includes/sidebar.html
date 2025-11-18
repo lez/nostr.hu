@@ -25,6 +25,21 @@
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
+
+      <!-- the permalinked posts -->
+      {% assign reverse_posts = site.posts | reverse %}
+      {% for post in reverse_posts %}
+        <li class="nav-item{% if page.url == post.url %}{{ " active" }}{% endif %}">
+          <a href="{{ post.url | relative_url }}" class="nav-link">
+            <i class="fa-fw {{ post.icon }}"></i>
+            {% capture post_name %}{{ post.url | split: '/' }}{% endcapture %}
+
+            <span>{{ post.menu | default: post.title | upcase }}</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      {% endfor %}
+
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">

@@ -37,10 +37,10 @@
   --blockquote-text-color: var(--gray1);
   --link-color: var(--red1);
   --link-underline-color: var(--red1);
-  --button-bg: #ffffff;
+  --button-bg: var(--yellow1);
   --btn-border-color: var(--red1);
   --btn-backtotop-color: #686868;
-  --btn-backtotop-border-color: #f1f1f1;
+  --btn-backtotop-border-color: var(--red1);
   --checkbox-color: #c5c5c5;
   --checkbox-checked-color: #07a8f7;
   --img-bg: radial-gradient(circle, rgb(255 255 255) 0%, rgb(239 239 239) 100%);
@@ -84,8 +84,8 @@
   --card-hover-bg: var(--yellow2);
   --card-shadow: var(--red1);//rgb(104 104 104 / 5%) 0 2px 6px 0, rgb(211 209 209 / 15%) 0 0 0 1px;
   --footnote-target-bg: lightcyan;
-  --tb-odd-bg: #fbfcfd;
-  --tb-border-color: #eaeaea;
+  --tb-odd-bg: var(--yellow2);
+  --tb-border-color: var(--red1);
   --dash-color: silver;
   --kbd-wrap-color: var(--red1);
   --kbd-text-color: var(--text-color);

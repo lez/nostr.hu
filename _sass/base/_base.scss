@@ -481,3 +481,16 @@ mjx-container {
     margin-top: 3rem;
   }
 }
+
+.deepdive {
+  float: right;
+}
+
+.deepdive a {
+  margin-left: 16px;
+  background: var(--red1);
+  border-radius: 12px;
+  padding: 8px 16px;
+  color: var(--yellow1);
+  font-weight: bold;
+}
