@@ -482,15 +482,28 @@ mjx-container {
   }
 }
 
-.deepdive {
-  float: right;
+.red {
+    color: var(--red1);
+    font-weight: bold;
 }
 
+.linkline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.deepdive {
+    border: 1px solid var(--red1);
+    border-radius: 8px;
+    padding: 16px 24px;
+    margin: 20px 5px 0px 5px;
+}
 .deepdive a {
-  margin-left: 16px;
+  margin: 0 auto;
   background: var(--red1);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 8px 16px;
   color: var(--yellow1);
   font-weight: bold;
+  white-space: nowrap;
 }
