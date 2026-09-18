@@ -2,9 +2,12 @@
 <div align="center">
 
   <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+  # Nostr.hu jekyll theme
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+  Build some js assets first: `npm install && npm run build`
+  Build the site: `docker run --rm --volume "$PWD:/srv/jekyll" jekyll/jekyll bash -c "git config --global safe.directory '*' ; bundle install; jekyll build"`
+
+  Develop with `docker run --publish 4000:4000 --rm --volume "$PWD:/srv/jekyll" jekyll/jekyll bash -c "git config --global safe.directory '*' ; bundle install; jekyll build; jekyll serve --host 0.0.0.0 --livereload"`
 
   [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
   [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
