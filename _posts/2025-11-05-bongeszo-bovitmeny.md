@@ -16,7 +16,7 @@ order: 1
 
 ### Chrome
 
-Ha Chrome alapú böngészőt használunk, telepítsük fel a [keys.band](https://chromewebstore.google.com/detail/keysband/jdencabhccnfhedpfoojbbdlgmecnlkm) bővítményt, majd menjünk végig a beállításokon. Ha a végére értünk, készen állunk arra, hogy belevessük magunkat a Nostr világába.
+Ha Chrome alapú böngészőt használunk, telepítsük fel a [keys.band](https://chromewebstore.google.com/detail/keysband/jdencabhccnfhedpfoojbbdlgmecnlkm) bővítményt, majd menjünk végig a beállításokon. Ha a végére értünk, készen állunk arra, hogy belevessük magunkat a Noszter világába.
 
 ![pin it](/assets/img/keys-pin.png)
 *Telepítés után pinneljük a keys.band bővítményt*
@@ -38,12 +38,12 @@ Ha Chrome alapú böngészőt használunk, telepítsük fel a [keys.band](https:
 
 Gratulálunk, kész az új profilod, amire a böngésződ emlékezni fog. Ne felejts el biztonsági mentést készíteni a titkos kulcsról.
 
-Innentől kezdve ha be akarunk lépni Nostr-rel egy weboldalra, pl. a [Köztérre](https://kozter.nostr.hu), a következő ablakot fogja feldobni a bővítmény:
+Innentől kezdve ha be akarunk lépni Noszterrel egy weboldalra, pl. a [Köztérre](https://kozter.nostr.hu), a következő ablakot fogja feldobni a bővítmény:
 
 ![step 6](/assets/img/keys-6.png)
-*Csak okézzuk le, és élvezzük a Nostr-t*
+*Csak okézzuk le, és élvezzük a Nosztert*
 
-Ha több profilt szeretnénk használni, csak ugyanezt a folyamatot kell többször végigjátszani. Később a keys.band bővítményben tudjuk kiválasztani a használni kívánt profilt.
+Több profilt minden további nélkül létrehozhatunk. Ugyanezt a folyamatot kell többször végrehajtani. Később a keys.band bővítményben tudjuk kiválasztani a használni kívánt profilt.
 
 ### Firefox
 
@@ -55,20 +55,22 @@ A [nostash](https://apps.apple.com/us/app/nostash/id6744309333) programot telep�
 
 ### Android
 
-Androidon a titkos kulcs kezelését az Amber nevű alkalmazásra célszerű bízni. Legtöbb Androidos Nostr app tudja kezelni, így a titkos kulcsunk védve lesz, ha kliensek hibásan működnek.
+Androidon a titkos kulcs kezelését az Amber nevű alkalmazásra célszerű bízni. Legtöbb Androidos Noszter app tudja használni, így a titkos kulcsunk biztonságban van, mert az Amber őrzi azt és nem adja ki.
 
-### Egyéb lehetőségek
+## Egyéb lehetőségek
 
-Ha IPhone-on Nostr-ezünk, vagy a fenti aláírókat valami miatt nem akarjuk vagy nem tudjuk feltelepíteni, két választásunk van:
+Ha IPhone-on Noszterezünk, vagy a fenti aláírókat valami miatt nem akarjuk vagy nem tudjuk feltelepíteni, két választásunk van:
 
-* Használjuk a titkos kulcsot közvetlenül az alkalmazásban. Ha ezt választjuk, előbb-utóbb vagy mi, vagy az app fejlesztői elkövetnek egy hibát, és a titkos kulcs kompromittálódik, egy ismeretlen személynél köt ki. Például fáradtan véletlenül a böngésző címsorába másoljuk be az nsec1-gyel kezdődő titkos kulcsot, és az már fenn is van a Google szerverein, anélkül hogy akár entert nyomnánk.
+### Titkos kulcs közvetlen használata
 
-Ilyenkor bölcs dolog lecserélni a kulcsot, és értesíteni a régi követőket, hogy mi az új publikus kulcsod.
+Használhatjuk a titkos kulcsot úgy, hogy bemásoljuk közvetlenül az alkalmazásba. Ha ezt választjuk, előbb-utóbb vagy mi, vagy az alkalmazások fejlesztői elkövethetnek egy hibát, és a titkos kulcs kikerül a kezünk közül. Lehet, hogy csak egy pillanat, egy félrenyúlás, aminek az eredménye az, hogy egy ismeretlen személynél/cégnél köt ki a kulcs. Például fáradtan véletlenül a böngésző címsorába másoljuk be az nsec1-gyel kezdődő titkos kulcsot (az nsec-et), és az már fenn is van a Google szerverein, anélkül hogy entert nyomnánk.
+
+Ilyenkor bölcs dolog lecserélni a kulcsot, és értesíteni a régi követőket, hogy mi az új publikus kulcs.
 
 #### Bunker login
 
 ![bunker](/assets/img/bunker.png)
 
-Haladó felhasználók megcsinálhatják, hogy egy szerveren vagy egy mini-pc-n (Raspberry Pi-n) üzemeltetnek egy aláírószoftvert, amit bunkernek vagy nsecBunkernek neveznek. Ezt, főleg ha ez az egy dolog fut a gépen, gyakorlatilag lehetetlen feltörni, a hiba lehetősége meglehetősen alacsony. Egyelőre még technikai tudás szükséges ahhoz, hogy ilyet üzemeltessünk, de ahogy egyre népszerűbb lesz a Nostr, számíthatunk rá, hogy megjelennek a fogyasztói bunker kütyük.
+Haladó felhasználók megcsinálhatják, hogy egy szerveren vagy egy mini-pc-n (Raspberry Pi-n) üzemeltetnek egy aláíró programot (bunker / nsecBunker). Ezt különösen nehéz feltörni, főleg ha semmi más nem fut a szerveren. Egyelőre még kell hozzá technikai tudás, hogy ilyen aláírót tartsunk fenn, de ahogy egyre népszerűbb lesz a Noszter, számíthatunk rá, hogy hamarosan megjelennek a fogyasztói bunker kütyük.
 
 <a href="https://www.flaticon.com/free-icons/bunkers" title="bunkers icons">Bunkers icons created by Sergei Kokota - Flaticon</a>
