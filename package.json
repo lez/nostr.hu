@@ -15,9 +15,11 @@
   "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
   "type": "module",
   "scripts": {
+    "dev": "docker run --publish 4000:4000 --rm --volume \"$PWD:/srv/jekyll\" jekyll/jekyll bash -c \"git config --global safe.directory '*' ; bundle install; jekyll build; jekyll serve --host 0.0.0.0 --livereload\"",
     "build": "concurrently npm:build:*",
     "build:css": "node purgecss.js",
     "build:js": "rollup -c --bundleConfigAsCjs --environment BUILD:production",
+    "build:jekyll": "docker run --rm --volume \"$PWD:/srv/jekyll\" jekyll/jekyll bash -c \"git config --global safe.directory '*' ; bundle install; jekyll build\"",
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:js": "eslint",
     "lint:scss": "stylelint _sass/**/*.scss",
